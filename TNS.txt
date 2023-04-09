@@ -1,0 +1,72 @@
+F137:
+SCT137_PRD =
+  (description =
+    (address_list =
+      (address = (protocol = tcp)(host = 10.41.16.123)(port = 1521))
+    )
+    (connect_data =
+      (sid = NSCT137)
+    )
+  )
+
+MIC2006_F137 =
+  (description =
+    (address_list =
+      (address = (protocol = tcp)(host = 10.41.16.186)(port = 1521))
+    )
+    (connect_data =
+      (sid = NEWP1)
+    )
+  )
+  
+  
+F136：
+PLANT2 =
+  (description =
+    (address_list =
+      (address = (protocol = tcp)(host = 10.41.16.123)(port = 1521))
+    )
+    (connect_data =
+      (sid = plant2)
+    )
+  ) 
+
+SCT136 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.41.16.123)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = sct136)
+    )
+  )
+
+F13A：
+MIC13A =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.41.16.123)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = MIC13A)
+    )
+  )
+
+SCT13A =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.41.16.123)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SCT13A)
+    )
+  )
+
+F133：
+MIC133_PRD =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.41.16.50)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = MIC133)
+    )
+  ) 
